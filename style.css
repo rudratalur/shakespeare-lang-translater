@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+:root {
+    --primary-color : #87CEEB
+}
+
+body {
+    font-family: 'Satisfy', cursive;
+}
+
+#navigation {
+    background-color: var(--primary-color);
+    height: 10vh;
+    margin: auto;
+    display: block;
+
+}
+
+#nav-bar {
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: xx-large;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    padding: 1rem 0 2rem 0;
+}
+#btn-translate {
+    background-color: var(--primary-color);
+    font-family: 'Satisfy', cursive;
+    padding: 0.5rem 1rem ;
+    margin: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: larger;
+    border-radius: 4px;
+    border: 0.05rem solid black;
+    margin: auto;
+    display: block;
+    margin-top: 3rem;
+    font-weight: bold;
+
+}
+#btn-translate:hover {
+    background-color:rgb(205, 205, 218) ;
+}
+#output-txt {
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+}
+
+#footer-header {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+}
+.footer #para {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
